@@ -1,0 +1,39 @@
+{
+  "name": "passlearn",
+  "version": "0.0.0",
+  "description": "Picks a random password for you, and helps you learn it over time.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc --outDir build/ -p src/",
+    "lint": "./node_modules/.bin/tslint src/**/*.ts",
+    "prestart": "npm run-script build",
+    "start": "./bin/passlearn",
+    "pretest": "./node_modules/.bin/tsc --outDir build_test/ -p test/",
+    "test": "./node_modules/.bin/mocha build_test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osdiab/passlearn.git"
+  },
+  "keywords": [
+    "password",
+    "random",
+    "teach",
+    "learn",
+    "remember"
+  ],
+  "author": "Omar Diab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osdiab/passlearn/issues"
+  },
+  "homepage": "https://github.com/osdiab/passlearn#readme",
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "tslint": "^3.11.0"
+  },
+  "dependencies": {
+    "password-generator": "^2.0.2",
+    "typescript": "^1.8.10"
+  }
+}

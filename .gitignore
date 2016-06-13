@@ -1,3 +1,7 @@
+build
+build_test
+typings
+
 # Logs
 logs
 *.log

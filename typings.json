@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "password-generator": "registry:npm/password-generator#0.1.0+20160318230024"
+  },
+  "globalDependencies": {
+    "es2015-promise": "registry:env/es2015-promise#1.0.0+20160526151700",
+    "mocha": "registry:env/mocha#2.2.5+20160321223601",
+    "node": "registry:env/node#6.0.0+20160610031852"
+  }
+}

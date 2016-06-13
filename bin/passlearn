@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+var passlearn_cli = require("../build/cli.js");
+passlearn_cli.default(process.argv);
