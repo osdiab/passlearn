@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "lodash": "registry:npm/lodash#4.0.0+20160416211519",
     "password-generator": "registry:npm/password-generator#0.1.0+20160318230024"
   },
   "globalDependencies": {

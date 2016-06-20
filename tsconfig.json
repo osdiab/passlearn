@@ -2,16 +2,17 @@
     "compilerOptions": {
         "module": "commonjs",
         "moduleResolution": "node",
+        "outDir": "build/",
         "target": "es5",
         "noImplicitAny": false,
         "sourceMap": true
     },
     "exclude": [
-        "node_modules"
+        "../node_modules"
     ],
     "files": [
-        "index.ts",
-        "cli.ts",
-        "../typings/index.d.ts"
+        "src/index.ts",
+        "src/cli.ts",
+        "typings/index.d.ts"
     ]
 }

@@ -4,7 +4,7 @@
   "description": "Picks a random password for you, and helps you learn it over time.",
   "main": "src/index.js",
   "scripts": {
-    "build": "./node_modules/.bin/tsc --outDir build/ -p src/",
+    "build": "./node_modules/.bin/tsc",
     "lint": "./node_modules/.bin/tslint src/**/*.ts",
     "prestart": "npm run-script build",
     "start": "./bin/passlearn",
@@ -33,6 +33,7 @@
     "tslint": "^3.11.0"
   },
   "dependencies": {
+    "lodash": "^4.13.1",
     "password-generator": "^2.0.2",
     "typescript": "^1.8.10"
   }
