@@ -34,6 +34,6 @@
   },
   "dependencies": {
     "password-generator": "^2.0.2",
-    "typescript": "^1.8.10"
+    "typescript": "^3.5.2"
   }
 }
