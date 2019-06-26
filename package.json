@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/osdiab/passlearn#readme",
   "devDependencies": {
-    "mocha": "^2.5.3",
+    "mocha": "^6.1.4",
     "tslint": "^3.11.0"
   },
   "dependencies": {
